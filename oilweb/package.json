@@ -1,0 +1,21 @@
+{
+  "name": "saeparan",
+  "version": "1.0.0",
+  "description": "saeparan pages",
+  "author": "park-yeongjun <se7enmail@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.15.3",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "nuxt": "latest",
+    "vueboot": "^0.4.5"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "NODE_ENV=production PORT=3001 nuxt start",
+    "generate": "nuxt generate"
+  }
+}
